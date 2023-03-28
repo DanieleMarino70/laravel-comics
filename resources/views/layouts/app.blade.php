@@ -19,6 +19,10 @@
   <main>
     @yield('comic-content')
   </main>
+
+  <footer>
+    @include('partials._footer')
+  </footer>
 </body>
 
 </html>
