@@ -22,7 +22,9 @@ Route::get('/', function () {
 
 Route::get('/comics', function () {
     $links_comics = config('comics_header_links');
+    $comics = config('comics');
 
 
-    return view('comics', compact('links_comics'));
+
+    return view('comics', compact('links_comics', 'comics'));
 });

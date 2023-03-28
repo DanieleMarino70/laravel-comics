@@ -15,6 +15,10 @@
   <header>
     @include('partials._header')
   </header>
+
+  <main>
+    @yield('comic-content')
+  </main>
 </body>
 
 </html>

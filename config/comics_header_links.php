@@ -3,43 +3,43 @@
 
 return [
     [
-        "title" => "Characters",
+        "title" => "CHARACTERS",
         "url" => "/characters"
     ],
     [
-        "title" => "Comics",
+        "title" => "COMICS",
         "url" => "/comics"
     ],
     [
-        "title" => "Movies",
+        "title" => "MOVIES",
         "url" => "/movies"
     ],
     [
-        "title" => "Tv",
+        "title" => "TV",
         "url" => "/tv"
     ],
     [
-        "title" => "Games",
+        "title" => "GAMES",
         "url" => "/games"
     ],
     [
-        "title" => "Collectibles",
+        "title" => "COLLECTIBLES",
         "url" => "/collectibles"
     ],
     [
-        "title" => "Videos",
+        "title" => "VIDEOS",
         "url" => "/videos"
     ],
     [
-        "title" => "Fans",
+        "title" => "FANS",
         "url" => "/fans"
     ],
     [
-        "title" => "News",
+        "title" => "NEWS",
         "url" => "/news"
     ],
     [
-        "title" => "Shop",
+        "title" => "SHOP",
         "url" => "/shop"
     ]
 ];
