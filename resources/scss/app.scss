@@ -4,6 +4,35 @@
     min-height: 100vh;
 }
 
-img {
-    max-height: 150px;
+.header-top {
+    background-color: white;
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+
+        img {
+            height: 80px;
+            align-self: center;
+            max-width: 100%;
+        }
+
+        ul {
+            display: flex;
+            list-style: none;
+            line-height: 6rem;
+
+            li {
+                text-decoration: none;
+                margin: 0 10px;
+
+                a {
+                    color: inherit;
+                    text-decoration: none;
+                }
+            }
+        }
+
+
+    }
 }
